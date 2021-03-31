@@ -1,0 +1,356 @@
+
+/********** banner principal ************/
+
+.banner-container-home {
+
+    width: 100%;
+    height: 500px;    
+    background-image: url(../imagens/backgrounds/banner-cover.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.about-containner{
+
+     
+    width: 100%;
+    max-width: 400px;
+
+    height: calc(100% + 30px);   
+    background: rgba(255, 255, 255, .6)   ;
+    position: relative;
+    top: -15px;
+
+    border-radius: 5px;
+    
+
+}
+
+.about-containner p{
+
+
+    width: 70%;    
+    text-align: center;
+    color:#010210;
+    margin: auto;
+    position: relative;
+    bottom: -50px;
+
+}
+
+.about-containner button{
+    
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+    border: none;
+    background: #010210;
+    color:white;
+    text-transform: uppercase;
+    cursor: pointer;
+
+
+}
+
+.about-containner a{
+
+    text-decoration: none;
+    
+
+}
+
+
+.about-containner button:hover{
+
+    background: #d6d4ce;
+
+}
+
+
+/***** Fim banner ******/
+
+
+/***** cards  *******/
+
+
+.cards-container {
+
+    width: 100%;
+    height: auto;
+    background: #010210; 
+    
+    
+     
+
+
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.card-content{
+
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+#soja{
+
+    width: 120px;
+    padding: 30px;
+
+}
+
+#trator{
+
+    width: 200px;
+    padding: 30px;
+
+}
+
+#drone{
+
+    width: 200px;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+.title-card {
+
+    width: 100%;
+    height: 100px;
+
+}
+
+.resume-card{
+
+    width: 100%;
+    height: 350px;
+    display: block;
+
+}
+
+.buton-card {
+
+    width: 100%;    
+    height: 100px;
+
+}
+
+.card-content h2{
+
+    color: #010210;
+    padding: 10px;
+    margin-bottom: 15px;
+
+
+}
+
+.card-content p{
+
+    color: #010210;
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+
+
+
+.card-content button{
+
+    
+    padding: 6px;
+    background-color: #010210;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+
+
+}
+
+.icon-content{
+
+    height: 200px;
+
+}
+
+/***** fim cards ******/
+
+
+/******** mega container *********/
+
+.mega-container{
+
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.mobile-title{
+
+    margin:40px; 
+    padding: 15px;
+    color: white;
+
+}
+
+.mobile-title h1{
+
+    font-size: 45px;
+
+}   
+
+
+.imagem-mega-mobile {
+
+    width: 100%;
+    
+
+
+}
+
+.imagem-mega-mobile img{
+
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.about-mega-mobile{
+
+    width: 100%;
+    color: white;
+    padding: 20px;
+
+}
+
+
+.mega-video{
+
+    margin: 0 auto;
+    padding: 0; 
+    text-align: center;
+
+}
+
+.mega-video iframe{
+
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+}
+
+
+
+
+/********* fim mega container ***********/
+
+
+
+@media screen and (min-width:1200px) {
+
+/**** cards *****/
+
+.cards-container {
+
+    width: 80%;
+    margin: 0 auto;
+    
+    
+     
+}
+
+
+
+.card-content{
+    
+    width: 30%;
+    min-height: 700px;
+    height: auto;
+    float:left;
+    margin: 5px 10px
+    
+
+}
+
+.card-content button{
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}    
+
+/****** fim cards *****/
+
+/****** mega container ***********/
+
+.mega-container{
+
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.imagem-mega-mobile{
+
+    width: 45%;
+    display: inline-block;
+
+}
+
+.about-mega-mobile{
+
+    
+    width: 45%;
+    float:left;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 0;
+    
+
+}
+
+.mega-video{
+
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+
+}
+
+
+/***** fim mega container ********/
+
+}
+
+
+

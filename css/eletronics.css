@@ -1,0 +1,115 @@
+.eletronics-title{
+
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+}
+
+.eletronics-card{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, .4);
+    padding: 10px;
+    margin-top: 20px;
+    
+
+}
+
+
+.card-cover{
+
+    width: 100%;
+    height: auto;
+    
+    
+}
+    
+
+
+
+
+
+#card-cover1{
+
+    width: 310px;
+    
+
+}
+
+.card-eletronics-content{
+
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    color: rgb(1, 16, 32,);
+
+}
+
+.botoes-eletronics-card{
+
+    margin-top: 35px;
+    width: 130px;
+    height: 40px;
+    background: rgb(1,16,32);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.card-eletronics-content a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+@media screen and (min-width:1200px) {
+
+    
+    .eletronics-card{
+
+        height: 650px;
+
+    }
+    
+    
+    .cover-card{
+
+        width: 40%;
+        
+        float: left;
+        padding: 0;
+        margin:0;
+        position: relative;
+        top: 100px;
+
+    }
+
+    .card-eletronics-content{
+
+            width: 50%;
+            float: right;
+            
+            margin : 10px;
+            position: relative;
+            padding: 20px;
+           
+    
+    }
+
+    
+    
+
+
+
+}

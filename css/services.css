@@ -1,0 +1,393 @@
+.services-banner{
+
+    width: 100%;
+    height: 400px;
+    background: url(../imagens/backgrounds/services-banner.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.services-description{
+
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    background: rgba(255, 255, 255,.6);
+    
+
+}
+
+.services-description p{
+
+    font-size: 20px;
+    width: 60%;
+    margin: 40px auto;
+    padding: 70px 15px 5px 15px;
+    text-align: center;
+    color: #010210;
+
+}
+
+
+/****** SERVICOS ******/
+
+.services-container{
+
+    text-align: center;
+
+}
+
+.services-container-title{
+
+    width:100%;
+    color: white;    
+    margin: 40px auto;
+    
+}
+
+.services-container-title a{
+
+    color: white;
+    text-decoration: none;
+
+}    
+
+
+.card-services-containner{
+
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: inline-block;
+        
+
+}
+
+.saiba-mais-services{
+
+    width: 100px;
+    height: 40px;
+    background-color:#010210;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    top: 430;
+    cursor: pointer;
+
+}
+
+.saiba-mais-services:hover{
+
+    background: rgba(1, 2, 16, .9);
+
+}
+
+
+
+.card-service-content1{
+
+    width: 230px;    
+    height: 500px;
+    background: url(../imagens/backgrounds/geoplus.png);
+    margin: 20px auto;
+
+    
+}
+
+.card-service-content2{
+
+    width: 230px;    
+    height: 500px;
+    background: url(../imagens/backgrounds/master.png);
+    margin: 20px auto;
+
+    
+}
+
+.card-service-content3{
+
+    width: 230px;    
+    height: 500px;
+    background: url(../imagens/backgrounds/premium.png);
+    margin: 20px auto;
+
+    
+}
+
+.card-service-content4{
+
+    width: 230px;    
+    height: 500px;
+    background: url(../imagens/backgrounds/extras.png);
+    margin: 20px auto;
+
+    
+}
+
+
+
+
+/*** FIM SERVICOS *****/
+
+/*** BANNER VERION ****/
+
+.verion-ass{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.verion-banner{
+    width: 330px;
+    height: 330px;
+    background: url(../imagens/backgrounds/assitencia.png);
+    background-size: 100%;
+    background-position:center;
+    margin: 0 auto;
+    
+
+}
+
+.solicite-assitencia-service{
+
+    position: relative;   
+    top: 270px;
+    left: 108;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background:#010210;
+    color: white;
+
+}
+
+.verion-about{
+
+    color: white;
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.verion-assis-title{
+
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.verion-assis-title a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.verion-assis-title a h1{
+
+    font-size: 20px;
+
+}
+
+
+
+/**** FIM BANNER VERION ****/
+
+/**** banner drone *****/
+
+.drone-service {
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 60px auto;
+
+}
+
+.drone-service-title{
+
+    color: white;
+    width: 100%;
+    height: 100px;
+
+
+}
+
+.drone-service-cover{
+    width: 300px;
+    height: 500px;
+    background:url(../imagens/backgrounds/aplicacao-drone.png);
+    background-size:100%;
+    margin:0 auto;
+
+
+}
+
+.drone-service-about{
+
+    color: white;
+    width: 100%;
+    
+    margin-top:15px
+
+}
+
+.solicite-drone-agora a button{
+
+    background: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #010210;
+    margin-top:25px;
+
+}
+
+/**** fim banner drone ******/
+
+
+@media screen and (min-width:600px){
+
+
+
+
+    .verion-banner{
+        width: 500px;
+        height: 500px;
+    }
+
+
+    .solicite-assitencia-service{
+
+        top: 420px;
+        left: 170;
+
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:800px) {
+
+    .card-service-content1{
+
+        float: left;        
+        margin: 19px;
+
+    }
+
+    .card-service-content2{
+
+        float: left;        
+        margin: 19px;
+
+    }
+
+    .card-service-content3{
+
+        float: left;        
+        margin: 19px;
+
+    }
+
+    .card-service-content4{
+
+        float: left;        
+        margin: 19px;
+
+    }
+
+ /******* fim servicos ******/
+
+}
+
+@media screen and (min-width:1350px) {
+
+    .services-container{
+
+        width: 80%;
+        margin:0 auto;
+
+    }
+
+    .verion-ass{
+
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .drone-service{
+
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+    .verion-banner{
+       
+        margin: 0;
+        display: inline-block;
+
+    }
+
+    .verion-about{
+
+        width:40%;
+        float: right;
+        padding: 20px;
+
+    }
+
+    .drone-service-cover{
+
+        margin: 0;
+        float: right;
+        padding: 15px;
+
+    }
+
+    .drone-service-about{
+
+        width: 50%;
+        padding: 15px;
+        float: left;
+
+    }
+
+    .verion-ass{
+
+        width: 80%;
+        margin: 0 auto;
+    
+        }
+    
+    .drone-service{
+    
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+}
+

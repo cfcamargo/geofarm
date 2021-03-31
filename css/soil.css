@@ -1,0 +1,73 @@
+.soil-containner{
+
+width: 100%;
+height: auto;
+
+
+}
+
+.soil-card {
+
+    width: 100%;
+   
+    height: auto;    
+    
+    text-align: center;
+    margin-top: 15px;
+    
+
+}
+
+.plan-card{
+
+    
+    text-align: center;
+    
+    width: 100%;
+    
+    height: auto;    
+    background: rgba(255, 255, 255, .3);
+
+}
+
+.plan-card h2{
+
+    margin: 15px;
+    
+
+}
+
+.plan-card p{
+
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+
+.plan-card button {
+
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: rgb(1,16,32);
+    color:white;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+}
+
+
+.plan-card img {
+
+    width: 400px;
+
+}
+
+
+
+
+

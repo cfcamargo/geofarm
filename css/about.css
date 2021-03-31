@@ -1,0 +1,77 @@
+.about-page-container{
+
+    width: 100%;
+    height: auto;
+
+}
+
+
+.about-page-content{
+
+    width: 100%;
+    text-align: center;
+
+
+
+}
+
+.about-page-cover img{
+
+    width: 330px;
+    margin: 0 auto;
+
+}
+
+.about-description {
+
+    margin: 0 auto;
+    color: white;
+
+}
+
+.about-description  h2{
+
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+.about-description  p{
+
+    margin-top: 10px;
+    font-weight: 200;
+
+}
+
+
+@media screen and (min-width:1200px){
+
+
+    .about-page-cover {
+
+        width: 20%;
+        float: left;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .about-description {
+
+        width: 50%;
+        float: right;
+
+
+    }
+
+.about-page-cover img{
+
+    margin: 0;
+    position: relative;
+    left: -65px;
+
+}
+
+
+}
+
